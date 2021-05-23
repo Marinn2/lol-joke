@@ -377,4 +377,16 @@ a {
 .text-primary {
   color: #000 !important;
 }
+.circle {
+  z-index: -1;
+  position: absolute;
+  width: 401px;
+  height: 401px;
+  left: -70px;
+  top: 325px;
+  border-radius: 50%;
+  background: #FDF4E7;
+  
+}
 /* button */
+
