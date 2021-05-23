@@ -57,12 +57,22 @@ a {
 
   
 .img-bg {
- 
+  position: relative;
   padding-top: 248px;
-  animation-name: bounce;
-  animation-duration: 4s;
-  animation-timing-function: cubic-bezier(.28,.84,.42,1);
+  animation-name: example;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
 }
+@keyframes example {
+  from, 
+  to {
+  top: 0;
+  left: 0;
+  }
+  50%, 
+  75% {top: 100%;}
+  50% {top: 50%;}
+  }
 
 .site-navbar {
   margin-bottom: 0px;
