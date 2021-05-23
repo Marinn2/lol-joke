@@ -544,3 +544,21 @@ a:hover {
   border-radius: 50%;
   background: #fdf4e7;
 }
+/* footer */
+.hero2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 341px;
+  background: #343434;
+}
+.list-nav ol li {
+  list-style: none;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #A9B5D4;
+}
