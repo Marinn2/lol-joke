@@ -547,18 +547,63 @@ a:hover {
 /* footer */
 .hero2 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 380px ;
   grid-template-rows: 1fr 1fr;
-  height: 341px;
-  background: #343434;
+  height:421px;
+  
 }
 .list-nav ol li {
-  list-style: none;
-  font-family: Roboto;
+list-style: none;
+font-family: Roboto;
 font-style: normal;
-font-weight: normal;
+font-weight: bold;
 font-size: 14px;
-line-height: 16px;
-
-color: #A9B5D4;
+line-height: 25px;
+color: #A9B5D4 !important;
 }
+.footer {
+  background: #343434;
+}
+.list-nav ol li a {
+  color: #A9B5D4 !important;
+}
+.list-nav ol li a:hover {
+  color: #007bff !important;
+}
+.bp {
+  color: #fff !important;
+  font-weight: 1000;
+}
+.hero2 {
+  padding-top: 61px;
+}
+
+.ol-grid {
+  display: grid;
+  grid-template-columns: 180px 100px;
+}
+.icon p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 900;
+  
+}
+
+.info p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #A9B5D4 !important;
+}
+
+.mail {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+}
+ .mail ol li p {
+  color: #A9B5D4 !important;
+  font-weight: bold;
+  font-size: 14px;
+ }
