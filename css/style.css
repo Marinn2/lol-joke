@@ -377,6 +377,9 @@ a {
 .text-primary {
   color: #000 !important;
 }
+<<<<<<< HEAD
+.button{background-color: #EAAD5C;}
+=======
 .circle {
   z-index: -1;
   position: absolute;
@@ -390,3 +393,4 @@ a {
 }
 /* button */
 
+>>>>>>> c44437ab6ee610a51fea1805b12565d016fa7086
