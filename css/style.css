@@ -549,7 +549,7 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 380px ;
   grid-template-rows: 1fr 1fr;
-  height:421px;
+  height:450px;
   
 }
 .list-nav ol li {
@@ -606,4 +606,83 @@ color: #A9B5D4 !important;
   color: #A9B5D4 !important;
   font-weight: bold;
   font-size: 14px;
- }
+}
+
+p.ani-mail {
+  color: white !important;
+  font-weight: 900;
+  font-size: 14px;
+}
+.youtube-icon {
+  cursor: pointer;
+}
+.youtube-icon:hover {
+
+  fill: #000;
+  
+
+}
+
+.footer__social {
+  margin-top: 8px;
+  
+}
+
+.button-secondary svg {
+  fill: var(--secondaryColor);
+}
+
+.button-icon svg {
+  margin-right: 0;
+  
+}
+.button-two svg {
+  height: 25px;
+  margin-right: 10px;
+  fill: currentColor;
+  -webkit-transition: fill .25s ease-in-out;
+  transition: fill .25s ease-in-out;
+}
+
+svg:not([fill]) {
+  fill: currentColor;
+}
+svg, svg:not(:root) {
+  overflow: hidden;
+}
+svg {
+  vertical-align: middle;
+} 
+
+.footer-logo {
+  color: #eaad5c !important;
+  font-family: AinslieW01-NormRegular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.rofl-footer {
+  color: white;
+}
+
+.footer-for {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.dev-guy {
+  padding-top: 5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #8C95AC;
+}
+.dev-span {
+  cursor: pointer;
+}
+.dev-span:hover {
+  color: #007bff !important;
+}
