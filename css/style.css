@@ -823,6 +823,7 @@ ol.type-anime {
   grid-template-columns: 360px 1fr;
   grid-template-rows: 1fr 1fr ;
   grid-column-gap: 20px;
+  grid-row-gap: 40px;
 }
 
 .img-page-anime {
@@ -875,6 +876,11 @@ ol.type-anime {
   padding: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  
+}
+
+.title-page-second {
+  padding-left: 3px;
 }
 
 .diss {
@@ -898,4 +904,77 @@ ol.type-anime {
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
+}
+
+.vert2 {
+  background: #626BEA !important;
+}
+
+.description {
+padding-top: 35px;
+}
+
+p.des-1 {
+  font-family: Roboto;
+
+ font-weight: bold;
+ font-size: 12px;
+/* or 20px */
+color: #A4B5CB;
+}
+
+p.des-2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.description-only {
+  width: 360px;
+  height: 390px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-sizing: border-box;
+  border-radius: 6px;
+  display: grid;
+
+}
+
+.description-title p {
+  font-size: 18px;
+  margin: 0;
+  color: #FFFFFF;
+  font-weight: bold;
+  
+}
+.description-title {
+  padding: 20px;
+}
+p.eng {
+  font-weight: normal !important;
+  font-size: 16px;
+}
+
+.des-prop ol li {
+  letter-spacing: 1px;
+  list-style: none;
+  font-weight: bold;
+  font-size: 12px;
+  color: white;
+}
+.des-prop ol li a {
+  list-style: none;
+  font-weight: bold;
+ 
+}
+.des-prop ol {
+  padding: 0;
+  margin: 0;
+  padding-top: 8px;
+}
+
+.des-prop p {
+  padding-top: 15px;
 }
