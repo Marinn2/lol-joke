@@ -72,7 +72,7 @@ a:hover {
   
 }
 .hero1 {
-  height: 812px;
+  height: 100%;
   width: 100%;
   background-color: #565656;
 }
@@ -534,7 +534,7 @@ a:hover {
   opacity: 1;
   right: 0;
 }
-.circle {
+.circle-antet {
   z-index: -1;
   position: absolute;
   width: 401px;
@@ -685,4 +685,126 @@ svg {
 }
 .dev-span:hover {
   color: #007bff !important;
+}
+
+/* article card */
+
+.anime-cards {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.anime-grid {
+  display: grid;
+  grid-template-columns: 280px;
+  grid-template-rows: 1fr;
+}
+.name-card {
+  margin: 0;
+  padding: 0;
+}
+.name-card a {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+  letter-spacing:1px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFFFFF !important;
+}
+
+.set-card a {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+  letter-spacing:1px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #FFCB76 !important;
+
+}
+
+.set-card a:hover {
+  color: #fff !important;
+}
+
+.name-anime {
+  padding-top: 8px;
+}
+.img-card img {
+  cursor: pointer;
+}
+.img-card {
+  
+  position: relative;
+}
+.panel-run {
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+  width: 250px;
+  height: 225px;
+  background: #404040;
+  display: block;
+  opacity: 0;
+
+}
+a, div, dl, dt, h1, h2, h3, h4, h5, h6, html, html a, input, li, p, span, textarea, th {
+  text-shadow: rgb(0 0 0 / 0%) 1px 1px 1px;}
+
+.img-card:hover .panel-run{
+  -webkit-transition: all 0.3s ease;;
+  -moz-transition: all 0.3s ease;;
+  -o-transition: all 0.3s ease;;
+  transition: all 0.5s ease;
+  opacity: 1;
+
+}
+
+.img-card:after .panel-run{
+  -webkit-transition: all 0.3s ease;;
+  -moz-transition: all 0.3s ease;;
+  -o-transition: all 0.3s ease;;
+  transition: all 0.5s ease;
+  opacity: 1;
+
+}
+
+
+.panel-run {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.panel-name {
+  padding: 20px;
+}
+ol.type-anime {
+  
+  padding: 0;
+  margin: 0;
+  padding-top: 15px;
+}
+.type-anime li {
+  list-style: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.type-anime li span {
+  color: #A9B5D4 !important;
+}
+
+.button-panel{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  padding-bottom: 10px;
 }
