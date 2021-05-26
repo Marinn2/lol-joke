@@ -72,7 +72,7 @@ a:hover {
   
 }
 .hero1 {
-  height: 100%;
+  height: 2700px;
   width: 100%;
   background-color: #565656;
 }
@@ -911,12 +911,11 @@ ol.type-anime {
 }
 
 .description {
-padding-top: 35px;
+padding-top: 10px;
 }
 
 p.des-1 {
   font-family: Roboto;
-
  font-weight: bold;
  font-size: 12px;
 /* or 20px */
@@ -924,6 +923,8 @@ color: #A4B5CB;
 }
 
 p.des-2 {
+  margin:0;
+  padding-bottom: 8px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -934,7 +935,7 @@ p.des-2 {
 
 .description-only {
   width: 360px;
-  height: 390px;
+  height: 410px;
   border: 1px solid rgba(255, 255, 255, 0.14);
   box-sizing: border-box;
   border-radius: 6px;
@@ -977,4 +978,18 @@ p.eng {
 
 .des-prop p {
   padding-top: 15px;
+}
+
+#player {
+  z-index: 4 !important;
+}
+
+#vk_comments {
+  z-index: 4 !important;
+}
+
+.hero4 {
+  height: 300px;
+  width: 100%;
+  background-color: white;
 }
