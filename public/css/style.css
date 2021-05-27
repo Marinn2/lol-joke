@@ -998,3 +998,7 @@ p.eng {
   width: 100%;
   background-color: white;
 }
+
+.hero-catalog {
+  height: 3000px !important;
+}
